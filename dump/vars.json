@@ -1,11 +1,14 @@
 {
     "assets": {
-        "badges": "/assets/images/badges/", 
-        "bootstrap": "/assets/bootstrap/", 
-        "crests": "/assets/images/crests/", 
-        "profile": "/assets/images/profile/", 
-        "styles": "/assets/styles/", 
-        "tiers": "/assets/images/tiers/"
+        "badges": "assets/images/badges/", 
+        "bootstrap": "assets/bootstrap/", 
+        "crests": "assets/images/crests/", 
+        "profile": "assets/images/profile/", 
+        "styles": "assets/styles/", 
+        "tiers": "assets/images/tiers/"
     }, 
-    "scripts": "/scripts/"
+    "path": {
+        "top": "/and-knuckles/"
+    }, 
+    "scripts": "scripts/"
 }
