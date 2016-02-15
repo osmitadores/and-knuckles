@@ -9,7 +9,7 @@
         <tr>
             <!-- CREST ICON -->
             <th class="crest">
-                <img alt="crest" class="crestpic" title="" src="{{ vars.assets.crests }}{{ crest }}.png">
+                <img alt="crest" class="crestpic" title="" src="{{ vars.path.top }}{{ vars.assets.crests }}{{ crest }}.png">
             </th>
             <!-- NAME -->
             <th align="left" class="name" colspan="3"> {{ nome }} </th>
@@ -19,7 +19,7 @@
                 <b>{{ terms.tier }}</b>: {{ tier }}
             </th>
             <th align="right" class="tiericon">
-                    <img alt="tier" class="tier" title="{{ tier }}" src="{{ vars.assets.tiers }}{{ tier }}.png">
+                    <img alt="tier" class="tier" title="{{ tier }}" src="{{ vars.path.top }}{{ vars.assets.tiers }}{{ tier }}.png">
             </th>
         </tr>
         <tr>
@@ -27,7 +27,7 @@
             <td align="center" class="profilepic" colspan="2" rowspan="5">
                 <a target="_blank" href="https://www.facebook.com/{{ faceId }}">
                     <!-- <img alt="profile" class="profile" src="http://graph.facebook.com/{{ faceId }}/picture?width=151&height=151"> -->
-                    <img width="151" height="151" alt="profile" class="profile" src="{{ vars.assets.profile }}{{ faceId }}.jpg">
+                    <img width="151" height="151" alt="profile" class="profile" src="{{ vars.path.top }}{{ vars.assets.profile }}{{ faceId }}.jpg">
                 </a>
             </td>
             <tr>
@@ -45,7 +45,7 @@
             <!-- BADGES -->
             <td class="badges" id="b-{{ id }}" colspan="4">
                 {{ #badges }}
-                <img class="badgeicon" src="{{ vars.assets.badges }}{{ . }}.png" alt="{{ . }}" />
+                <img class="badgeicon" src="{{ vars.path.top }}{{ vars.assets.badges }}{{ . }}.png" alt="{{ . }}" />
                 {{ /badges }}
             </td>
         </tr>

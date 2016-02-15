@@ -44,11 +44,14 @@ variables:
 
 # Variáveis customizadas (definidas pelo usuário)
 custom_variables:
+    path:
+        top: /and-knuckles/
+        #top: /
     assets:
-        badges: /assets/images/badges/
-        tiers: /assets/images/tiers/
-        crests: /assets/images/crests/
-        profile: /assets/images/profile/
-        styles: /assets/styles/
-        bootstrap: /assets/bootstrap/
-    scripts: /scripts/
+        badges: assets/images/badges/
+        tiers: assets/images/tiers/
+        crests: assets/images/crests/
+        profile: assets/images/profile/
+        styles: assets/styles/
+        bootstrap: assets/bootstrap/
+    scripts: scripts/
