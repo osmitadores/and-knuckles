@@ -45,8 +45,8 @@ variables:
 # Variáveis customizadas (definidas pelo usuário)
 custom_variables:
     path:
-        top: /and-knuckles/
-        #top: /
+        #top: /and-knuckles/
+        top: /
     assets:
         badges: assets/images/badges/
         tiers: assets/images/tiers/
