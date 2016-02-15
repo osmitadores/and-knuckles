@@ -1,0 +1,41 @@
+{
+	"williamd1k0":{
+        "badges": [
+                "mythDiamond", 
+                "merito", 
+                "programeiro"
+        ], 
+        "crest": "roxo", 
+        "faceId": 100001156867316, 
+        "id": "williamd1k0", 
+        "joindate": "2015/11/15", 
+        "nome": "William Tum\u00e9o", 
+        "tier": "Diamond"
+},
+	"lucasflicky":{
+        "badges": [
+                "mythMinister", 
+                "desenheiro", 
+                "programeiro"
+        ], 
+        "crest": "hood", 
+        "faceId": 1489576273, 
+        "id": "lucasflicky", 
+        "joindate": "2014/11/15", 
+        "nome": "Lucas Flicky", 
+        "tier": "Minister"
+},
+	"vinicius":{
+        "badges": [
+                "mythUnicorn", 
+                "3ds", 
+                "music"
+        ], 
+        "crest": "vkps", 
+        "faceId": 100002623130922, 
+        "id": "vinicius", 
+        "joindate": "2015/11/15", 
+        "nome": "Vinicius Kleinsorgen", 
+        "tier": "Unicorn"
+}
+}
