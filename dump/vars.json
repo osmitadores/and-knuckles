@@ -8,7 +8,7 @@
         "tiers": "assets/images/tiers/"
     }, 
     "path": {
-        "top": "/and-knuckles/"
+        "top": "/"
     }, 
     "scripts": "scripts/"
 }
