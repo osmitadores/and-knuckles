@@ -339,6 +339,12 @@ background-color: #00F;
     display: none;
 }
 
+.logo-icon {
+    width: 35px;
+    margin: -6px 0px;
+}
+
+
 #gayframe{
     overflow:hidden;
     overflow-x:hidden;
